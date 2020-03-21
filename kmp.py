@@ -57,4 +57,4 @@ def ipv_get_next(pattern):
 if __name__ == '__main__':
     p = "dish"
     m = "aaacihdishihabcsohohs"
-    print kmp(m, p)
+    print(kmp(m, p))

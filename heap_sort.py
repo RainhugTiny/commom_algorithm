@@ -1,3 +1,14 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+(1)时间复杂度：O（nlogn），建堆的时间复杂度：O（n）
+(2)空间复杂度，O（1）
+(3)稳定性：不稳定
+(4)适用情况：适用的场景是数组很大的情况，如果数组很小，建堆的也需要比较高的时间复杂度。
+   例如：从单个无序数组中找到前topK大（小顶堆）或多个有序数组中第topK大（大顶堆）的数。
+"""
+
+
 def heap_sort(heap):
     heap_size = len(heap)
     # build heap
