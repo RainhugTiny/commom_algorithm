@@ -45,14 +45,15 @@ def binary_search_right(nums, value):
             l = m + 1
         else:
             r = m - 1
-    return l - 1
+    # return l - 1
+    return r
 
 
 if __name__ == '__main__':
-    input = [1, 3, 4, 4.5, 4.5, 5]
-    value = 3
+    input = [3, 3, 3, 4, 4.5, 4.5, 5]
+    value = 4
     # res = binary_search_insert(input, value)
     # input.insert(res, value)
     # print input
     res = binary_search_right(input, value)
-    print res
+    print(res)

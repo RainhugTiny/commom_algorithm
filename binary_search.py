@@ -14,4 +14,4 @@ def binary_search(nums, value):
 if __name__ == '__main__':
     input = [1, 3, 3.5, 4, 4.5, 5]
     res = binary_search(input, 6)
-    print res
+    print(res)
